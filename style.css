@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    background-color:rgb(6, 5, 13);
+    color:White;
+    width:100%;
+    height:100vh;
+}
+h1{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main{
+    width:100% ;
+    height:90% ;
+    background-color:rgb(48, 83, 120);
+    border-radius: 10px;
+    border: 2px solid rgb(212, 228, 242);
+}
+#title{
+    text-align:center;
+    margin: 15px ;
+    padding:10px;
+    color:blanchedalmond
+}
+.slider{
+    text-align :center;
+    margin-bottom:25px;
+}
+.text{
+    display:block;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:8px;
+}
+input[type="range"] {
+    width:250px;
+}
+#types{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+ h4{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.input{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.input-box{
+    width:250px;
+    position: relative;
+}
+#password{
+    width:100%;
+    padding-right:70px;
+    height: 25px;
+}
+#clipboard{
+    position:absolute;
+    right:5px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    padding: 4px 4px;
+    border-radius:4px;
+    border:none;
+
+}
+#message{
+    margin-top:2px;
+    font-size:11px;
+    color:gray;
+}
+#generateBtn{
+    padding:5px;
+    margin:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+#display{
+    font-size:35px;
+}
+

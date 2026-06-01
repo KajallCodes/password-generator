@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Password Generator</h1>
+    <div class = "main">
+        <div id = "title">
+        </div>
+
+        <div class = "slider">
+            <label for = "characters" class ="text"><h4>Number of characters</h4></label>
+            <input type="range" id = "characters" min="6" max ="12" value="8">     
+        </div>
+
+        <div class = "options">
+            <div id = "types">
+            <h4>Allowed character Types</h4>
+            <label>
+                <input type = "checkbox" id ="lowercase">Lowercase (a-z)
+            </label>
+            <label>
+                <input type ="checkbox" id="uppercase">Uppercase (A-Z)
+            </label>
+            <label>
+                <input type = "checkbox" id ="numbers">Numbers (0-9)
+            </label>
+            <label>
+                <input type = "checkbox" id ="symbols">Symbols (!@#$)
+            </label>
+        </div>
+        </div>
+        
+        <div class = "input">
+            <div class="input-box">
+             <input type = "text" name="password" id ="password" placeholder="Generate Password" readonly>
+             <button id = "clipboard">Copy</button></div>
+            <div id = "message">!must include lowercase,uppercase,numbers and symbols.</div>
+            <button id = "generateBtn">Generate</button>
+        </div>
+
+        
+
+        <div class = "meter">
+            <div id = "strength"></div>
+        </div> 
+
+        <div class="last">
+            <div id = "display">Password Strength:</div>
+        </div>
+    </div>
+    <script src ="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
